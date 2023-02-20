@@ -29,4 +29,4 @@ def prime_in_range(n: int) -> 'generator':
 
 
 if __name__ == '__main__':
-    print(list(prime_in_range(int(input()))))
+    print(*list(prime_in_range(int(input()))))
